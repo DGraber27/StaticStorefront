@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 body
@@ -23,8 +24,8 @@ div.clear{
     background-size: cover;
    
     margin: center;
-    height:700px;
-    width: 1650px;
+    height:750px;
+    width: 1905px;
 }
 #navigation_main img {
     width:200px;
@@ -44,8 +45,6 @@ div.clear{
     background-color: black;
     height: 60px;
     padding-left: 150px;
-    
-    
 }
 
 .navigation
@@ -77,7 +76,7 @@ background-color: lightgray;
     border-radius: 10px;
     background-color: black;
     width: 730px;
-    position: relative;
+    position: static;
     height: 1435px;
     margin-left: 10em;
 }
@@ -164,6 +163,7 @@ footer {
     height: 50px;
    
 }
+
 
 footer ul {
     list-style: none;
